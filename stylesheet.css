@@ -100,6 +100,11 @@ div.navbar {
     100% {background-position: -160px;}
 }
 
+@keyframes fadein{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .sticky{
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -111,4 +116,12 @@ div.sticky.p{
 
 .FAQ{
     font-family: "8bitoperator JVE";
+}
+
+.fadein{
+    opacity: 0;
+    animation: fadein ease-out;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
 }
