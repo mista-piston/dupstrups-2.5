@@ -88,16 +88,16 @@ div.navbar {
         margin: 0px;
         top: 0;
         height: 160px;
-        background-image: url(assets/sanstile.png);
+        background-image: url(assets/sanstile3.png);
         background-position: 0px;
         animation: bgscroll linear infinite;
-        animation-duration: 4s;
+        animation-duration: 156s;
         border: 2px solid #666666;
     }
 
 @keyframes bgscroll{
     0% {background-position: 0px;}
-    100% {background-position: -160px;}
+    100% {background-position: -6240px;}
 }
 
 @keyframes fadein{
